@@ -1,0 +1,20 @@
+python --version
+python -m ensurepip --upgrade
+
+python -m pip install --upgrade pip
+
+
+pip install pytz matplotlib pandas fpdf pillow numpy
+
+
+
+
+pip install pyinstaller
+
+
+pyinstaller --onefile --noconsole --icon=myicon.ico your_script.py
+
+
+
+
+self.root.iconbitmap("your_icon.ico")
